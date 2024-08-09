@@ -14,7 +14,7 @@ Al completar estas etapas, podrás extraer información valiosa de los datos y t
 La actividad de los usuarios y las usuarias difiere según el día de la semana y dependiendo de la ciudad.
 
 ## Diccionario de datos
-Los datos se almacenan en el archivo `/datasets/music_project_en.csv`.
+Los datos se almacenan en el archivo `data/music_project_en.csv`.
 
 ### Descripción de las columnas:
 
@@ -27,3 +27,4 @@ Los datos se almacenan en el archivo `/datasets/music_project_en.csv`.
 `'Day'`: día de la semana.
 
 ## Instrucciones
+Primero, evaluarás la calidad de los datos y verás si los problemas son significativos. Entonces, durante el preprocesamiento de datos, tomarás en cuenta los problemas más críticos. Las instrucciones del proyecto se detallan en el notebook del proyecto `notebooks/nb_music_project.ipynb`. 
