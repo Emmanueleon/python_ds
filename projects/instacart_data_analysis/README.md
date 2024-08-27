@@ -21,6 +21,7 @@ El conjunto de datos consta de cinco archivos CSV que contienen información sob
 
 ## Estructura del Proyecto
 
+```
 instacart-data-analysis/
 │
 ├── data/
@@ -37,6 +38,7 @@ instacart-data-analysis/
 │   └── analysis_results.md
 │
 ├── README.md
+```
 
 El notebook contiene todos los pasos necesarios para cargar, limpiar y analizar los datos. Sigue las celdas en orden para reproducir los análisis y visualizaciones. Al completar el análisis, deberías ser capaz de:
 
