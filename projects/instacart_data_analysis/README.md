@@ -14,16 +14,16 @@ El análisis incluye:
 El conjunto de datos consta de cinco archivos CSV que contienen información sobre pedidos, productos, pasillos y departamentos:
 
 - `instacart_orders.csv`: Información sobre cada pedido realizado en Instacart.
-- `products.csv: Detalles de los productos disponibles.
-- `order_products.csv: Información sobre los productos incluidos en cada pedido.
-- `aisles.csv: Detalles sobre las categorías de pasillo.
-- `departments.csv: Información sobre los departamentos de productos.
+- `products.csv`: Detalles de los productos disponibles.
+- `order_products.csv`: Información sobre los productos incluidos en cada pedido.
+- `aisles.csv`: Detalles sobre las categorías de pasillo.
+- `departments.csv`: Información sobre los departamentos de productos.
 
 ### Diccionario de datos
 A continuación se muestra un diccionario de datos que enumera las columnas de cada tabla y describe los datos que contienen.
 
 **`instacart_orders.csv`**: cada fila corresponde a un pedido en la aplicación Instacart.
-  - 'order_id'`: número de ID que identifica de manera única cada pedido.
+  - `'order_id'`: número de ID que identifica de manera única cada pedido.
   - `'user_id'`: número de ID que identifica de manera única la cuenta de cada cliente.
   - `'order_number'`: el número de veces que este cliente ha hecho un pedido.
   - `'order_dow'`: día de la semana en que se hizo un pedido (0 si es domingo).
