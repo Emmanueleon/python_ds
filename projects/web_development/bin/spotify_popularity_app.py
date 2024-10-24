@@ -40,13 +40,13 @@ if st.button("Construir histograma para tu conjunto de datos"):
 # Botón gráfico dispersión ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Crear el checkbox
-if st.checkbox("Construir el gráfico de dispersión para tu conjunto de datos")
+if st.checkbox("Construir el gráfico de dispersión para tu conjunto de datos"):
 
-  # Escribe un mensaje interactivo
-  st.write('Creando gráfico de dispersión....')
+    # Escribe un mensaje interactivo
+    st.write('Creando gráfico de dispersión....')
 
-   # Validar que la columna exista
-   if "energy" in spotify_df.columns and "track_popularity" in spotify_df.columns and "playlist_genre" in spotify_df.columns:
+    # Validar que la columna exista
+    if "energy" in spotify_df.columns and "track_popularity" in spotify_df.columns and "playlist_genre" in spotify_df.columns:
 
         # Crea el scatterplot
         scatter_fig = px.scatter(spotify_df,
