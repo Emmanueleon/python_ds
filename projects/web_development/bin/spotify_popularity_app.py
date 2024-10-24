@@ -50,13 +50,12 @@ if st.checkbox("Construir el gráfico de dispersión para tu conjunto de datos")
 
         # Crea el scatterplot
         scatter_fig = px.scatter(spotify_df,
-                                 x="energy", y="track_popularity",
-                                 color="playlist_genre", opacity=0.2,
-                                 facet_col="playlist_genre",
-                                 title="Relación popularidad y la energía por género",
-                                 labels={
-                                     "energy": "Energía", "track_popularity": "Popularidad de la canción"},
-                                 trendline="ols")
+                                x="energy", y="track_popularity",
+                                color="playlist_genre", opacity=0.2,
+                                facet_col="playlist_genre",
+                                title="Relación popularidad y la energía por género",
+                                labels={"energy": "Energía", "track_popularity": "Popularidad de la canción"},
+                                trendline="ols")
 
         # Mostrar un gráfico Plotly interactivo
         st.plotly_chart(scatter_fig, use_container_width=True)
