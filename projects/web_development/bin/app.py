@@ -5,7 +5,7 @@ import streamlit as st
 
 
 # Lectura de dataframe
-spotify_df = pd.read_csv("../data/spotify_songs.csv")
+spotify_df = pd.read_csv("data/spotify_songs.csv")
 
 
 # Título de la página
