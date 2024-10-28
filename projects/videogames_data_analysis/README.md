@@ -38,7 +38,7 @@ A continuación se muestra un diccionario de datos que enumera las columnas de l
 - `JP_sales`: Ventas en Japón, en millones de dólares estadounidenses.
 - `Other_sales`: Ventas en otros países, en millones de dólares estadounidenses.
 - `Critic_Score`: Puntaje de críticos (máximo de 100).
-- `User_Score: Puntaje de usuarios (máximo de 10).
+- `User_Score`: Puntaje de usuarios (máximo de 10).
 - `Rating`: Clasificación ESRB que asigna una edad recomendada (por ejemplo, Adolescente, Adulto).
 
 > **Nota**: Es posible que los datos de 2016 estén incompletos.
@@ -83,18 +83,27 @@ Para cada región (NA, UE, JP) determina:
 
 ### Paso 5. Prueba de hipótesis
 
-— Las calificaciones promedio de los usuarios para las plataformas Xbox One y PC son las mismas.
+- Las calificaciones promedio de los usuarios para las plataformas Xbox One y PC son las mismas.
 
-— Las calificaciones promedio de los usuarios para los géneros de Acción y Deportes son diferentes.
+- Las calificaciones promedio de los usuarios para los géneros de Acción y Deportes son diferentes.
 
 Establece tu mismo el valor de umbral alfa.
 
 Explica:
 
-— Cómo formulaste las hipótesis nula y alternativa.
+- Cómo formulaste las hipótesis nula y alternativa.
 
-— Qué criterio utilizaste para probar las hipótesis y por qué.
+- Qué criterio utilizaste para probar las hipótesis y por qué.
 
 ### Paso 6. Conclusión general
 
 Formato: Completa la tarea en Jupyter Notebook. Inserta el código de programación en las celdas code y las explicaciones de texto en las celdas markdown. Aplica formato y agrega encabezados.
+
+## Estructura del Repositorio
+
+El repositorio está organizado en los siguientes directorios y archivos:
+
+- `datasets/` : Contiene los archivos CSV con los datos.
+- `notebooks/` : Contiene el Jupyter Notebook con el análisis.
+- `scripts/` : Scripts de Python para el procesamiento y análisis de datos.
+- `README.md` : Este archivo con la descripción del proyecto.
