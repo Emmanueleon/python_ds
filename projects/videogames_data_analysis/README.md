@@ -8,6 +8,19 @@ Delante de ti hay datos que se remontan a 2016. Imaginemos que es diciembre de 2
 
 Lo importante es adquirir experiencia de trabajo con datos. Realmente no importa si estás pronosticando las ventas de 2017 en función de los datos de 2016 o las ventas de 2027 en función de los datos de 2026.
 
+## Objetivo
+
+El objetivo de este proyecto es identificar los factores que determinan el éxito de los videojuegos en función de diversas características y métricas de ventas en distintas plataformas y regiones.
+
+Para ello, se realizará un análisis exhaustivo de los datos, considerando aspectos como:
+
+- La popularidad y longevidad de las plataformas de videojuegos a lo largo del tiempo.
+- Las ventas totales de videojuegos en distintas regiones (Norteamérica, Europa, Japón y otros mercados).
+La relación entre las reseñas de críticos y usuarios con el desempeño comercial de los juegos.
+- La influencia de los géneros y las clasificaciones de edad (ESRB) en las ventas.
+
+Este análisis permitirá detectar patrones y tendencias que ayudarán a Ice, la tienda de videojuegos, a identificar proyectos de alto potencial y optimizar sus campañas publicitarias en el futuro.
+
 ## Conjunto de datos
 
 El conjunto de datos `games` consta de información sobre videojuegos, incluyendo detalles de reseñas, ventas y clasificación por edades (ESRB)
