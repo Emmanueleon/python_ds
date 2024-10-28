@@ -8,7 +8,7 @@ Usarás datos de 500 clientes que incluyen información sobre llamadas, mensajes
 
 ### Descripción de las Tarifas
 
-**Surf**
+#### Surf
 
 - Pago mensual: $20
 - Incluye: 500 minutos, 50 SMS, 15 GB de datos
@@ -17,7 +17,7 @@ Usarás datos de 500 clientes que incluyen información sobre llamadas, mensajes
   - SMS: $0.03
   - GB de datos: $10
 
-**Ultimate**
+#### Ultimate
 
 - Pago mensual: $70
 - Incluye: 3000 minutos, 1000 SMS, 30 GB de datos
@@ -36,7 +36,7 @@ El proyecto busca realizar un análisis preliminar sobre el comportamiento de lo
 - El volumen de datos consumidos.
 - Los ingresos generados por cada cliente según la tarifa utilizada.
 
-Este análisis ayudará a Megaline a evaluar y ajustar sus estrategias de precios y publicidad. 
+Este análisis ayudará a Megaline a evaluar y ajustar sus estrategias de precios y publicidad.
 
 ## Conjunto de Datos
 
