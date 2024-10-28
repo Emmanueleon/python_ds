@@ -8,7 +8,27 @@ Delante de ti hay datos que se remontan a 2016. Imaginemos que es diciembre de 2
 
 Lo importante es adquirir experiencia de trabajo con datos. Realmente no importa si estás pronosticando las ventas de 2017 en función de los datos de 2016 o las ventas de 2027 en función de los datos de 2026.
 
-El dataset contiene una columna `rating` que almacena la clasificación ESRB de cada juego. El Entertainment Software Rating Board (la Junta de clasificación de software de entretenimiento) evalúa el contenido de un juego y asigna una clasificación de edad como Adolescente o Adulto.
+## Conjunto de datos
+
+El conjunto de datos `games` consta de información sobre videojuegos, incluyendo detalles de reseñas, ventas y clasificación por edades (ESRB)
+
+### Diccionario de datos
+
+A continuación se muestra un diccionario de datos que enumera las columnas de la tabla y describe los datos que contienen.  
+
+- `Name`: Nombre del videojuego.
+- `Platform`: Plataforma en la que está disponible el videojuego.
+- `Year_of_Release`: Año de lanzamiento del videojuego.
+- `Genre`: Género del videojuego.
+- `NA_sales`: Ventas en Norteamérica, en millones de dólares estadounidenses.
+- `EU_sales`: Ventas en Europa, en millones de dólares estadounidenses.
+- `JP_sales`: Ventas en Japón, en millones de dólares estadounidenses.
+- `Other_sales`: Ventas en otros países, en millones de dólares estadounidenses.
+- `Critic_Score`: Puntaje de críticos (máximo de 100).
+- `User_Score: Puntaje de usuarios (máximo de 10).
+- `Rating`: Clasificación ESRB que asigna una edad recomendada (por ejemplo, Adolescente, Adulto).
+
+> **Nota**: Es posible que los datos de 2016 estén incompletos.
 
 ## Instrucciones
 
@@ -16,12 +36,12 @@ El dataset contiene una columna `rating` que almacena la clasificación ESRB de 
 
 Abre el archivo de datos y estudia la información general.
 
-## Paso 2:  Preparación los datos
+### Paso 2:  Preparación los datos
 
 - Reemplaza los nombres de las columnas en minúsculas
 - Convierte los datos en los tipos necesarios.
 - Describe las columnas en las que los tipos de datos han sido cambiados y explica por qué.
-- Elige la manera de tratar los valores ausentes: 
+- Elige la manera de tratar los valores ausentes:
   - Explica por qué rellenaste los valores ausentes como lo hiciste o por qué decidiste dejarlos en blanco.
   - ¿Por qué crees que los valores están ausentes? Brinda explicaciones posibles.
   - Presta atención a la abreviatura TBD: significa "to be determined" (a determinar). Especifica cómo piensas manejar estos casos.
@@ -40,7 +60,7 @@ Abre el archivo de datos y estudia la información general.
 - Teniendo en cuenta tus conclusiones compara las ventas de los mismos juegos en otras plataformas.
 - Echa un vistazo a la distribución general de los juegos por género. ¿Qué se puede decir de los géneros más rentables? ¿Puedes generalizar acerca de los géneros con ventas altas y bajas?
 
-### Paso 4: Crea un perfil de usuario para cada región
+### Paso 4: Crea un perfil de usuario para cada r
 
 Para cada región (NA, UE, JP) determina:
 
@@ -48,7 +68,7 @@ Para cada región (NA, UE, JP) determina:
 - Los cinco géneros principales. Explica la diferencia.
 - Si las clasificaciones de ESRB afectan a las ventas en regiones individuales.
 
-### Paso 5. Prueba de hipótesis:
+### Paso 5. Prueba de hipótesis
 
 — Las calificaciones promedio de los usuarios para las plataformas Xbox One y PC son las mismas.
 
