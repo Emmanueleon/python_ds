@@ -17,3 +17,5 @@ Bienvenido a mi repositorio que incluye una colección de proyectos desarrollado
 ## Uso
 - Explora los proyectos en la carpeta `projects/` para ver las diferentes aplicaciones desarrolladas.
 - Revisa el notebook en `notes/` para acceder a las notas y ejercicios del curso de certificación.
+
+## Contacto
